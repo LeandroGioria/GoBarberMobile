@@ -55,6 +55,7 @@ export default (signedIn = false) =>
             Profile,
           },
           {
+            resetOnBlur: true, // reseta rota ao sair dela
             tabBarOptions: {
               keyboardHidesTabBar: true,
               activeTintColor: '#FFF',
