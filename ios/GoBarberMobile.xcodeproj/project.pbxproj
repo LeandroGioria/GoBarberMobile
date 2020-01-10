@@ -15,22 +15,10 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* GoBarberMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* GoBarberMobileTests.m */; };
-		AAC10B02CB4F4B5B9A7CA448 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41A9071DDD1C4208830CC843 /* AntDesign.ttf */; };
-		B7F7C2BC6DA9461DB5D3E21E /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56DBF444F9DA447CBDE58398 /* Entypo.ttf */; };
-		343C9A5A42A2413D9B94E729 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E618E88B964F4771A5CFC047 /* EvilIcons.ttf */; };
-		8FEF80B2372F4B33B17CA4FC /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB10681BD4134AF58C36201A /* Feather.ttf */; };
-		65DC78E4188D4A5DACEDFACC /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70151CD80FFE4C4D99156078 /* FontAwesome.ttf */; };
-		E9A1652D246346B586322E9C /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2B561B6288C4912AFD6CD1F /* FontAwesome5_Brands.ttf */; };
-		4A1746FBE9784808A3EA8179 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A222012B3619433D868A8DA3 /* FontAwesome5_Regular.ttf */; };
-		8C592086CA714CC8A5D1C9B7 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3863FAC10744C4E8A2760A1 /* FontAwesome5_Solid.ttf */; };
-		81DE2BE8E7CA4F44BDAF9256 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 646FBEBA93624B878085E509 /* Fontisto.ttf */; };
-		3F2BFCFA43684D0A93031700 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4BADB3DE31045818B4C4AF2 /* Foundation.ttf */; };
-		8A637FABF329494EB0E7784A /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEA2DE12216840C98C403B36 /* Ionicons.ttf */; };
-		5E1DB84B603F4E0D81961CB9 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16E106E3AC2F4E6DB0CCC085 /* MaterialCommunityIcons.ttf */; };
-		A1EBFDC7626F4E07AD642069 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20B3078AF9EF46F4A02F0834 /* MaterialIcons.ttf */; };
-		DBC0C00072E944CAB533BF45 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D59E4ECAFCE24ACEA8031690 /* Octicons.ttf */; };
-		B4C06BF0FF3746B7918E7716 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C53784191F6847E29ABC7274 /* SimpleLineIcons.ttf */; };
-		9DB5482587E04C8788FE0A54 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2708725D0E5643889C251BEC /* Zocial.ttf */; };
+		3BA30F2386C28AA9B81A40C4 /* libPods-GoBarberMobile-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0547510D999F68B21EBE51 /* libPods-GoBarberMobile-tvOSTests.a */; };
+		6418CE8A85F9664E6A779768 /* libPods-GoBarberMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB07B11A4F6FF37B4893C76 /* libPods-GoBarberMobile.a */; };
+		A90491BDA5E776ABFCDB8743 /* libPods-GoBarberMobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A10B6C21AF133945B678DA84 /* libPods-GoBarberMobileTests.a */; };
+		AAB4B67CF54BE23F0F922698 /* libPods-GoBarberMobile-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D742DC5FFA3EF87B8ACB2D /* libPods-GoBarberMobile-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,26 +50,22 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GoBarberMobile/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GoBarberMobile/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = GoBarberMobile/main.m; sourceTree = "<group>"; };
+		1C23B11B9FF932D799171DC1 /* Pods-GoBarberMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoBarberMobileTests.debug.xcconfig"; path = "Target Support Files/Pods-GoBarberMobileTests/Pods-GoBarberMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1CB07B11A4F6FF37B4893C76 /* libPods-GoBarberMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoBarberMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC9CC2F667F543300A720A5 /* Pods-GoBarberMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoBarberMobileTests.release.xcconfig"; path = "Target Support Files/Pods-GoBarberMobileTests/Pods-GoBarberMobileTests.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* GoBarberMobile-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoBarberMobile-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* GoBarberMobile-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GoBarberMobile-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F253C2D33A929F37C2BEAD2 /* Pods-GoBarberMobile-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoBarberMobile-tvOS.release.xcconfig"; path = "Target Support Files/Pods-GoBarberMobile-tvOS/Pods-GoBarberMobile-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		54A4D18A3CC713B3E2E3EBD9 /* Pods-GoBarberMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoBarberMobile.release.xcconfig"; path = "Target Support Files/Pods-GoBarberMobile/Pods-GoBarberMobile.release.xcconfig"; sourceTree = "<group>"; };
+		55A73338ABC72E00B89C9089 /* Pods-GoBarberMobile-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoBarberMobile-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-GoBarberMobile-tvOS/Pods-GoBarberMobile-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A10B6C21AF133945B678DA84 /* libPods-GoBarberMobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoBarberMobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D742DC5FFA3EF87B8ACB2D /* libPods-GoBarberMobile-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoBarberMobile-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2A364113A3FEC2275343E5 /* Pods-GoBarberMobile-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoBarberMobile-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-GoBarberMobile-tvOSTests/Pods-GoBarberMobile-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBC23AC5E4B302B5978D740B /* Pods-GoBarberMobile-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoBarberMobile-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-GoBarberMobile-tvOSTests/Pods-GoBarberMobile-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		E6BDE62AD9724172FAE77398 /* Pods-GoBarberMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoBarberMobile.debug.xcconfig"; path = "Target Support Files/Pods-GoBarberMobile/Pods-GoBarberMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		EB0547510D999F68B21EBE51 /* libPods-GoBarberMobile-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoBarberMobile-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		41A9071DDD1C4208830CC843 /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		56DBF444F9DA447CBDE58398 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E618E88B964F4771A5CFC047 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DB10681BD4134AF58C36201A /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		70151CD80FFE4C4D99156078 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B2B561B6288C4912AFD6CD1F /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A222012B3619433D868A8DA3 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F3863FAC10744C4E8A2760A1 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		646FBEBA93624B878085E509 /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E4BADB3DE31045818B4C4AF2 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FEA2DE12216840C98C403B36 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		16E106E3AC2F4E6DB0CCC085 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		20B3078AF9EF46F4A02F0834 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D59E4ECAFCE24ACEA8031690 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C53784191F6847E29ABC7274 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2708725D0E5643889C251BEC /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A90491BDA5E776ABFCDB8743 /* libPods-GoBarberMobileTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6418CE8A85F9664E6A779768 /* libPods-GoBarberMobile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB4B67CF54BE23F0F922698 /* libPods-GoBarberMobile-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BA30F2386C28AA9B81A40C4 /* libPods-GoBarberMobile-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +121,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		10D811BF13324792AED92685 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* GoBarberMobile */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +148,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				1CB07B11A4F6FF37B4893C76 /* libPods-GoBarberMobile.a */,
+				A8D742DC5FFA3EF87B8ACB2D /* libPods-GoBarberMobile-tvOS.a */,
+				EB0547510D999F68B21EBE51 /* libPods-GoBarberMobile-tvOSTests.a */,
+				A10B6C21AF133945B678DA84 /* libPods-GoBarberMobileTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -172,6 +172,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				10D811BF13324792AED92685 /* Resources */,
+				B9C1A643E3F166731538E24E /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -189,29 +190,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		10D811BF13324792AED92685 /* Resources */ = {
-			isa = "PBXGroup";
+		B9C1A643E3F166731538E24E /* Pods */ = {
+			isa = PBXGroup;
 			children = (
-				41A9071DDD1C4208830CC843 /* AntDesign.ttf */,
-				56DBF444F9DA447CBDE58398 /* Entypo.ttf */,
-				E618E88B964F4771A5CFC047 /* EvilIcons.ttf */,
-				DB10681BD4134AF58C36201A /* Feather.ttf */,
-				70151CD80FFE4C4D99156078 /* FontAwesome.ttf */,
-				B2B561B6288C4912AFD6CD1F /* FontAwesome5_Brands.ttf */,
-				A222012B3619433D868A8DA3 /* FontAwesome5_Regular.ttf */,
-				F3863FAC10744C4E8A2760A1 /* FontAwesome5_Solid.ttf */,
-				646FBEBA93624B878085E509 /* Fontisto.ttf */,
-				E4BADB3DE31045818B4C4AF2 /* Foundation.ttf */,
-				FEA2DE12216840C98C403B36 /* Ionicons.ttf */,
-				16E106E3AC2F4E6DB0CCC085 /* MaterialCommunityIcons.ttf */,
-				20B3078AF9EF46F4A02F0834 /* MaterialIcons.ttf */,
-				D59E4ECAFCE24ACEA8031690 /* Octicons.ttf */,
-				C53784191F6847E29ABC7274 /* SimpleLineIcons.ttf */,
-				2708725D0E5643889C251BEC /* Zocial.ttf */,
+				E6BDE62AD9724172FAE77398 /* Pods-GoBarberMobile.debug.xcconfig */,
+				54A4D18A3CC713B3E2E3EBD9 /* Pods-GoBarberMobile.release.xcconfig */,
+				55A73338ABC72E00B89C9089 /* Pods-GoBarberMobile-tvOS.debug.xcconfig */,
+				4F253C2D33A929F37C2BEAD2 /* Pods-GoBarberMobile-tvOS.release.xcconfig */,
+				AB2A364113A3FEC2275343E5 /* Pods-GoBarberMobile-tvOSTests.debug.xcconfig */,
+				CBC23AC5E4B302B5978D740B /* Pods-GoBarberMobile-tvOSTests.release.xcconfig */,
+				1C23B11B9FF932D799171DC1 /* Pods-GoBarberMobileTests.debug.xcconfig */,
+				2AC9CC2F667F543300A720A5 /* Pods-GoBarberMobileTests.release.xcconfig */,
 			);
-			name = Resources;
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -220,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "GoBarberMobileTests" */;
 			buildPhases = (
+				6DAF41EC4D7B80CDE9959758 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -238,18 +232,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "GoBarberMobile" */;
 			buildPhases = (
+				5BECA16C0CDCDD8C6A7159EE /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				5E52F4BCA9BC2797F3323BE2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = GoBarberMobile;
-			productName = "GoBarberMobile";
+			productName = GoBarberMobile;
 			productReference = 13B07F961A680F5B00A75B9A /* GoBarberMobile.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -257,6 +253,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GoBarberMobile-tvOS" */;
 			buildPhases = (
+				AF76C2109A3F9DA271BA131A /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -276,6 +273,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GoBarberMobile-tvOSTests" */;
 			buildPhases = (
+				54533DF3BA403252FA98CBC1 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -349,22 +347,6 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				AAC10B02CB4F4B5B9A7CA448 /* AntDesign.ttf in Resources */,
-				B7F7C2BC6DA9461DB5D3E21E /* Entypo.ttf in Resources */,
-				343C9A5A42A2413D9B94E729 /* EvilIcons.ttf in Resources */,
-				8FEF80B2372F4B33B17CA4FC /* Feather.ttf in Resources */,
-				65DC78E4188D4A5DACEDFACC /* FontAwesome.ttf in Resources */,
-				E9A1652D246346B586322E9C /* FontAwesome5_Brands.ttf in Resources */,
-				4A1746FBE9784808A3EA8179 /* FontAwesome5_Regular.ttf in Resources */,
-				8C592086CA714CC8A5D1C9B7 /* FontAwesome5_Solid.ttf in Resources */,
-				81DE2BE8E7CA4F44BDAF9256 /* Fontisto.ttf in Resources */,
-				3F2BFCFA43684D0A93031700 /* Foundation.ttf in Resources */,
-				8A637FABF329494EB0E7784A /* Ionicons.ttf in Resources */,
-				5E1DB84B603F4E0D81961CB9 /* MaterialCommunityIcons.ttf in Resources */,
-				A1EBFDC7626F4E07AD642069 /* MaterialIcons.ttf in Resources */,
-				DBC0C00072E944CAB533BF45 /* Octicons.ttf in Resources */,
-				B4C06BF0FF3746B7918E7716 /* SimpleLineIcons.ttf in Resources */,
-				9DB5482587E04C8788FE0A54 /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +395,142 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		54533DF3BA403252FA98CBC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoBarberMobile-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BECA16C0CDCDD8C6A7159EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoBarberMobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E52F4BCA9BC2797F3323BE2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoBarberMobile/Pods-GoBarberMobile-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoBarberMobile/Pods-GoBarberMobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DAF41EC4D7B80CDE9959758 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoBarberMobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF76C2109A3F9DA271BA131A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoBarberMobile-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -519,6 +637,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C23B11B9FF932D799171DC1 /* Pods-GoBarberMobileTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -541,6 +660,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AC9CC2F667F543300A720A5 /* Pods-GoBarberMobileTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -560,6 +680,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6BDE62AD9724172FAE77398 /* Pods-GoBarberMobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -579,6 +700,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54A4D18A3CC713B3E2E3EBD9 /* Pods-GoBarberMobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -597,6 +719,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55A73338ABC72E00B89C9089 /* Pods-GoBarberMobile-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -624,6 +747,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F253C2D33A929F37C2BEAD2 /* Pods-GoBarberMobile-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -651,6 +775,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB2A364113A3FEC2275343E5 /* Pods-GoBarberMobile-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -677,6 +802,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBC23AC5E4B302B5978D740B /* Pods-GoBarberMobile-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
