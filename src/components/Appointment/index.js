@@ -1,8 +1,10 @@
 import React, { useMemo } from 'react';
-import { parseISO, formatRelative } from 'date-fns';
-import pt from 'date-fns/locale/pt';
 import { TouchableOpacity } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
+
+import { parseISO, formatRelative } from 'date-fns';
+import pt from 'date-fns/locale/pt';
+import PropTypes from 'prop-types';
 
 import { Container, Left, Avatar, Info, Name, Time } from './styles';
 
@@ -14,20 +16,28 @@ export default function Appointment({ data, onCancel }) {
     });
   }, [data.date]);
 
+  const defaultDataProvider = {
+    avatar: { url: 'https://api.adorable.io/avatar/50/notfound.png' },
+    name: 'Não encontrado',
+  };
+
   return (
     <Container past={data.past}>
       <Left>
         <Avatar
           source={{
-            // uri: data.provider.avatar
-            //   ? data.provider.avatar.url
-            //   : `https://api.adorable.io/avatar/50/${data.provider.name}.png`,
-            uri: `https://api.adorable.io/avatar/50/${data.provider.name}.png`,
+            uri: data.provider
+              ? data.provider.avatar
+                ? data.provider.avatar.url
+                : defaultDataProvider.avatar.url
+              : defaultDataProvider.avatar.url,
           }}
         />
 
         <Info>
-          <Name>{data.provider.name}</Name>
+          <Name>
+            {data.provider ? data.provider.name : defaultDataProvider.name}
+          </Name>
           <Time>{dateParsed}</Time>
         </Info>
       </Left>
@@ -40,3 +50,22 @@ export default function Appointment({ data, onCancel }) {
     </Container>
   );
 }
+
+Appointment.propTypes = {
+  data: PropTypes.shape({
+    provider: PropTypes.shape({
+      name: PropTypes.string,
+      avatar: PropTypes.string,
+      url: PropTypes.string,
+    }),
+    date: PropTypes.string,
+    cancelable: PropTypes.bool,
+    canceled_at: PropTypes.string,
+    past: PropTypes.bool,
+  }),
+  onCancel: PropTypes.func.isRequired,
+};
+
+Appointment.defaultProps = {
+  data: [],
+};
