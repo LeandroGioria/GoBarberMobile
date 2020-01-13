@@ -666,7 +666,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoBarberMobile.app/GoBarberMobile";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoBarber.app/GoBarber";
 			};
 			name = Debug;
 		};
@@ -692,7 +692,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoBarberMobile.app/GoBarberMobile";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoBarber.app/GoBarber";
 			};
 			name = Release;
 		};
@@ -711,7 +711,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.lg.GoBarber;
+				PRODUCT_BUNDLE_IDENTIFIER = org.lgs.gobarber;
 				PRODUCT_NAME = GoBarber;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -731,7 +731,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.lg.GoBarber;
+				PRODUCT_BUNDLE_IDENTIFIER = org.lgs.gobarber;
 				PRODUCT_NAME = GoBarber;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -758,7 +758,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lg.GoBarber.tvOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lgs.gobarber.tvOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -787,7 +787,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lg.GoBarber.tvOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lgs.gobarber.tvOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
